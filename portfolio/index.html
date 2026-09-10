@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Gráfico — Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav__inner">
+            <a href="#hero" class="nav__logo">DG<span class="accent">.</span></a>
+            <button class="nav__toggle" id="navToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav__links" id="navLinks">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero__bg">
+            <div class="hero__grain"></div>
+            <div class="hero__glow"></div>
+        </div>
+        <div class="hero__content">
+            <p class="hero__label reveal">Designer Gráfico</p>
+            <h1 class="hero__title reveal">
+                Transformo ideias em<br>
+                <span class="hero__title--accent">identidades visuais</span>
+            </h1>
+            <p class="hero__subtitle reveal">
+                Criação de logos, materiais promocionais, artes para redes sociais e design de apparel — com foco em detalhes, elegância e impacto visual.
+            </p>
+            <a href="#portfolio" class="hero__cta reveal">Ver meus trabalhos</a>
+        </div>
+        <div class="hero__scroll">
+            <span>Scroll</span>
+            <div class="hero__scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre__grid">
+                <div class="sobre__label reveal">
+                    <span class="section-number">01</span>
+                    <span class="section-label">Sobre</span>
+                </div>
+                <div class="sobre__content">
+                    <h2 class="sobre__title reveal">
+                        Design com propósito,<br>execução com <span class="accent">excelência</span>
+                    </h2>
+                    <div class="sobre__text reveal">
+                        <p>
+                            Sou Designer Gráfico com foco em criação de identidades visuais, materiais promocionais e arte comercial. Cada projeto é tratado com atenção aos detalhes, desde a concepção até a entrega final.
+                        </p>
+                        <p>
+                            Meu trabalho combina criatividade com technique — desenvolvendo soluções visuais que comunicam, impactam e fortalecem a presença visual de marcas e profissionais.
+                        </p>
+                        <p>
+                            Acredito que um bom design não é apenas estético: é estratégico, funcional e memorável.
+                        </p>
+                    </div>
+                    <div class="sobre__skills reveal">
+                        <div class="skill-tag">Identidade Visual</div>
+                        <div class="skill-tag">Mockups</div>
+                        <div class="skill-tag">Design de Apparel</div>
+                        <div class="skill-tag">Arte Comercial</div>
+                        <div class="skill-tag">Redes Sociais</div>
+                        <div class="skill-tag">Branding</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio__header">
+                <div class="portfolio__label reveal">
+                    <span class="section-number">02</span>
+                    <span class="section-label">Portfólio</span>
+                </div>
+                <h2 class="portfolio__title reveal">Trabalhos Selecionados</h2>
+            </div>
+
+            <div class="portfolio__filters reveal">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="identidade">Identidade Visual</button>
+                <button class="filter-btn" data-filter="apparel">Design de Apparel</button>
+                <button class="filter-btn" data-filter="comercial">Arte Comercial</button>
+            </div>
+
+            <div class="portfolio__grid">
+
+                <!-- Projeto 1: Logo Daliane Araújo -->
+                <div class="portfolio__item portfolio__item--featured reveal" data-category="identidade">
+                    <div class="portfolio__card">
+                        <img 
+                            src="../desgners_feitos/ChatGPT Image 10 de set. de 2026, 17_59_35.png" 
+                            alt="Logo circular Daliane Araújo - Enfermeira" 
+                            loading="lazy"
+                        >
+                        <div class="portfolio__overlay">
+                            <span class="portfolio__category">Identidade Visual</span>
+                            <h3 class="portfolio__name">Daliane Araújo</h3>
+                            <p class="portfolio__desc">Logo circular premium com tipografia script e elementos botânicos em dourado sobre verde escuro.</p>
+                            <button class="portfolio__expand" aria-label="Ver ampliado">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2: Tote Bag -->
+                <div class="portfolio__item reveal" data-category="identidade">
+                    <div class="portfolio__card">
+                        <img 
+                            src="../desgners_feitos/ChatGPT Image 10 de set. de 2026, 17_59_38.png" 
+                            alt="Tote bag com identidade visual Daliane Araújo" 
+                            loading="lazy"
+                        >
+                        <div class="portfolio__overlay">
+                            <span class="portfolio__category">Identidade Visual</span>
+                            <h3 class="portfolio__name">Tote Bag — Daliane Araújo</h3>
+                            <p class="portfolio__desc">Aplicação da identidade visual em tote bag de lona com estetoscópio e monograma.</p>
+                            <button class="portfolio__expand" aria-label="Ver ampliado">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 3: Tumbler -->
+                <div class="portfolio__item reveal" data-category="identidade">
+                    <div class="portfolio__card">
+                        <img 
+                            src="../desgners_feitos/ChatGPT Image 10 de set. de 2026, 17_59_41.png" 
+                            alt="Mockup tumbler com arte Daliane Araújo" 
+                            loading="lazy"
+                        >
+                        <div class="portfolio__overlay">
+                            <span class="portfolio__category">Identidade Visual</span>
+                            <h3 class="portfolio__name">Tumbler — Daliane Araújo</h3>
+                            <p class="portfolio__desc">Mockup de copo térmico com aplicação da identidade visual, frente e verso.</p>
+                            <button class="portfolio__expand" aria-label="Ver ampliado">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 4: Polo Instituto Federal -->
+                <div class="portfolio__item portfolio__item--wide reveal" data-category="apparel">
+                    <div class="portfolio__card">
+                        <img 
+                            src="../desgners_feitos/ChatGPT Image 10 de set. de 2026, 18_00_20.png" 
+                            alt="Polo shirt Instituto Federal - Campos Currais Novos" 
+                            loading="lazy"
+                        >
+                        <div class="portfolio__overlay">
+                            <span class="portfolio__category">Design de Camiseta</span>
+                            <h3 class="portfolio__name">Polo Instituto Federal</h3>
+                            <p class="portfolio__desc">Design de polo premium em preto e roxo para o Instituto Federal Campos Currais Novos, com identidade tecnológica.</p>
+                            <button class="portfolio__expand" aria-label="Ver ampliado">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 5: Polo Ezeroth -->
+                <div class="portfolio__item portfolio__item--wide reveal" data-category="apparel">
+                    <div class="portfolio__card">
+                        <img 
+                            src="../desgners_feitos/ChatGPT Image 10 de set. de 2026, 18_00_29.png" 
+                            alt="Polo shirt Ezeroth - neon green hacker theme" 
+                            loading="lazy"
+                        >
+                        <div class="portfolio__overlay">
+                            <span class="portfolio__category">Design de Camiseta</span>
+                            <h3 class="portfolio__name">Polo Ezeroth</h3>
+                            <p class="portfolio__desc">Design de polo com tema hacker/developer, verde neon e efeito de código Python.</p>
+                            <button class="portfolio__expand" aria-label="Ver ampliado">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 6: Caixa de Som -->
+                <div class="portfolio__item reveal" data-category="comercial">
+                    <div class="portfolio__card">
+                        <img 
+                            src="../desgners_feitos/ChatGPT Image 10 de set. de 2026, 18_00_47.png" 
+                            alt="Arte comercial caixa de som bluetooth" 
+                            loading="lazy"
+                        >
+                        <div class="portfolio__overlay">
+                            <span class="portfolio__category">Arte Comercial</span>
+                            <h3 class="portfolio__name">Caixa de Som Bluetooth</h3>
+                            <p class="portfolio__desc">Arte de apresentação de produto com tipografia bold e composição dinâmica.</p>
+                            <button class="portfolio__expand" aria-label="Ver ampliado">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 7: Carregador -->
+                <div class="portfolio__item reveal" data-category="comercial">
+                    <div class="portfolio__card">
+                        <img 
+                            src="../desgners_feitos/ChatGPT Image 10 de set. de 2026, 18_00_50.png" 
+                            alt="Arte comercial carregador 67w" 
+                            loading="lazy"
+                        >
+                        <div class="portfolio__overlay">
+                            <span class="portfolio__category">Arte Comercial</span>
+                            <h3 class="portfolio__name">Carregador 67w</h3>
+                            <p class="portfolio__desc">Arte limpa e minimalista para apresentação de carregador com carga rápida.</p>
+                            <button class="portfolio__expand" aria-label="Ver ampliado">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="contato__grid">
+                <div class="contato__info">
+                    <div class="contato__label reveal">
+                        <span class="section-number">03</span>
+                        <span class="section-label">Contato</span>
+                    </div>
+                    <h2 class="contato__title reveal">
+                        Vamos criar algo<br><span class="accent">incrível juntos</span>
+                    </h2>
+                    <p class="contato__text reveal">
+                        Estou disponível para projetos de identidade visual, design de materiais promocionais, arte comercial e design de apparel. Entre em contato para discutir seu próximo projeto.
+                    </p>
+                    <div class="contato__details reveal">
+                        <div class="contato__item">
+                            <span class="contato__item-label">E-mail</span>
+                            <a href="mailto:seu.email@exemplo.com" class="contato__item-value">manoeldserafim@gmail.com</a>
+                        </div>
+                        <div class="contato__item">
+                            <span class="contato__item-label">Telefone</span>
+                            <a href="tel:+5500000000000" class="contato__item-value">(84) 99918-4811</a>
+                        </div>
+                        <div class="contato__item">
+                            <span class="contato__item-label">Instagram</span>
+                            <a href="https://instagram.com/ezeroth" class="contato__item-value" target="_blank" rel="noopener">@ezeroth</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato__form-wrap reveal">
+                    <form class="contato__form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" required placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Descreva seu projeto..."></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Enviar mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <p class="footer__copy">&copy; 2026 — Designer Gráfico. Todos os direitos reservados.</p>
+                <a href="#hero" class="footer__top" aria-label="Voltar ao topo">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M18 15l-6-6-6 6"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox__close" aria-label="Fechar">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 6L6 18M6 6l12 12"/>
+            </svg>
+        </button>
+        <div class="lightbox__content">
+            <img src="" alt="" id="lightboxImg">
+        </div>
+    </div>
+
+    <!-- Back to top -->
+    <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M18 15l-6-6-6 6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
